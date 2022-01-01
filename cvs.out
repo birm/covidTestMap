@@ -1,0 +1,2230 @@
+{
+  "response" : {
+    "header" : {
+      "statusCode" : "0000",
+      "statusDesc" : "Success",
+      "refId" : "Id-6da6cf618e4ec6ec97d0d947"
+    },
+    "clinicsCount" : "23",
+    "clinicDetails" : [ {
+      "clinicName" : "Highland Avenue - Atlanta Covid - 19 Testing Site",
+      "zipCode" : "30312",
+      "clinicId" : "3040",
+      "isPoctDriveThru" : "Y",
+      "address" : "439 HIGHLAND AVENUE",
+      "city" : "ATLANTA",
+      "mondayHours" : "9:30 AM - 4:10 PM",
+      "tuesdayHours" : "9:30 AM - 4:10 PM",
+      "wednesdayHours" : "9:30 AM - 4:10 PM",
+      "thursdayHours" : "9:30 AM - 4:10 PM",
+      "fridayHours" : "9:30 AM - 4:10 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "4723_3040",
+      "timeZone" : "EST",
+      "distance" : "1.41",
+      "latitude" : "33.761200",
+      "longitude" : "-84.372300",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "RALPH DAVID ABERNATHY BOULEVARD ATLANTA Covid - 19 Testing Site",
+      "zipCode" : "30310",
+      "clinicId" : "4456",
+      "isPoctDriveThru" : "Y",
+      "address" : "895 RALPH DAVID ABERNATHY BOULEVARD",
+      "city" : "ATLANTA",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "4178_4456",
+      "timeZone" : "EST",
+      "distance" : "1.64",
+      "latitude" : "33.738400",
+      "longitude" : "-84.417400",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "PONCE DE LEON AVENUE NE ATLANTA Covid - 19 Testing Site",
+      "zipCode" : "30308",
+      "clinicId" : "4090",
+      "isPoctDriveThru" : "Y",
+      "address" : "680 PONCE DE LEON AVENUE NE",
+      "city" : "ATLANTA",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "3878_4090",
+      "timeZone" : "EST",
+      "distance" : "2.31",
+      "latitude" : "33.773800",
+      "longitude" : "-84.365200",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "ATLANTA - N HIGHLAND AVE NE POCT Covid -19 Testing Site Lane 2",
+      "zipCode" : "30306",
+      "clinicId" : "14449",
+      "isPoctDriveThru" : "N",
+      "address" : "865 N HIGHLAND AVE NE",
+      "city" : "ATLANTA",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 5:30 PM",
+      "isPoctTent" : "Y",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "Y",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "104604_14449",
+      "timeZone" : "EST",
+      "distance" : "3.05",
+      "latitude" : "33.778400",
+      "longitude" : "-84.352300",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "alert" : {
+        "message" : "The clinic is temporarily closed from 02:35 pm to 05:30 pm .Please try again when the clinic opens.",
+        "startDate" : "12112021",
+        "endDate" : "12112021",
+        "startTime" : "14:35",
+        "endTime" : "17:30"
+      },
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID -19 POCT Testing",
+        "duration" : "10",
+        "id" : "47"
+      } ]
+    }, {
+      "clinicName" : "ATLANTA - N HIGHLAND AVE NE POCT Covid -19 Testing Site",
+      "zipCode" : "30306",
+      "clinicId" : "13080",
+      "isPoctDriveThru" : "N",
+      "address" : "865 N HIGHLAND AVE NE",
+      "city" : "ATLANTA",
+      "mondayHours" : "8:00 AM - 7:30 PM",
+      "tuesdayHours" : "8:00 AM - 7:30 PM",
+      "wednesdayHours" : "8:00 AM - 7:30 PM",
+      "thursdayHours" : "8:00 AM - 7:30 PM",
+      "fridayHours" : "8:00 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "Y",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "Y",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "4604_13080",
+      "timeZone" : "EST",
+      "distance" : "3.05",
+      "latitude" : "33.778400",
+      "longitude" : "-84.352300",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "alert" : {
+        "message" : "The clinic is temporarily closed from 02:35 pm to 05:30 pm .Please try again when the clinic opens.",
+        "startDate" : "12112021",
+        "endDate" : "12112021",
+        "startTime" : "14:35",
+        "endTime" : "17:30"
+      },
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID -19 POCT Testing",
+        "duration" : "10",
+        "id" : "47"
+      } ]
+    }, {
+      "clinicName" : "Moreland Avenue - Atlanta Covid - 19 Testing Site",
+      "zipCode" : "30316",
+      "clinicId" : "3039",
+      "isPoctDriveThru" : "Y",
+      "address" : "1455 MORELAND AVENUE",
+      "city" : "ATLANTA",
+      "mondayHours" : "9:30 AM - 4:10 PM",
+      "tuesdayHours" : "9:30 AM - 4:10 PM",
+      "wednesdayHours" : "9:30 AM - 4:10 PM",
+      "thursdayHours" : "9:30 AM - 4:10 PM",
+      "fridayHours" : "9:30 AM - 4:10 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "81_3039",
+      "timeZone" : "EST",
+      "distance" : "3.33",
+      "latitude" : "33.714800",
+      "longitude" : "-84.350100",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "MARTIN LUTHER KING JR DR SW ATLANTA Covid - 19 Testing Site",
+      "zipCode" : "30311",
+      "clinicId" : "4097",
+      "isPoctDriveThru" : "N",
+      "address" : "2429 MARTIN LUTHER KING JR DR SW",
+      "city" : "ATLANTA",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "Y",
+      "isDarkClinic" : "N",
+      "storeNumber" : "4717_4097",
+      "timeZone" : "EST",
+      "distance" : "4.33",
+      "latitude" : "33.752300",
+      "longitude" : "-84.466700",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "alert" : {
+        "message" : "The clinic is temporarily closed from 09:00 am to 11:00 am .Please try again when the clinic opens.",
+        "startDate" : "02282021",
+        "endDate" : "02282021",
+        "startTime" : "09:00",
+        "endTime" : "11:00"
+      },
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "Community Site CVS 5395 - CASCADE ROAD, SW",
+      "zipCode" : "30311",
+      "clinicId" : "33073",
+      "isPoctDriveThru" : "Y",
+      "address" : "2237 CASCADE ROAD, SW",
+      "city" : "ATLANTA",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "5395_33073",
+      "timeZone" : "EST",
+      "distance" : "4.38",
+      "latitude" : "33.722800",
+      "longitude" : "-84.461200",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "alert" : {
+        "message" : "This clinic is temporarily closed. Please select a different location.",
+        "startDate" : "09212021",
+        "endDate" : "09222021",
+        "startTime" : "08:30",
+        "endTime" : "19:30"
+      },
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      } ]
+    }, {
+      "clinicName" : "Cheshire Bridge Road, NE - Atlanta Covid - 19 Testing Site",
+      "zipCode" : "30324",
+      "clinicId" : "2978",
+      "isPoctDriveThru" : "Y",
+      "address" : "2350 CHESHIRE BRIDGE ROAD, NE",
+      "city" : "ATLANTA",
+      "mondayHours" : "9:30 AM - 4:10 PM",
+      "tuesdayHours" : "9:30 AM - 4:10 PM",
+      "wednesdayHours" : "9:30 AM - 4:10 PM",
+      "thursdayHours" : "9:30 AM - 4:10 PM",
+      "fridayHours" : "9:30 AM - 4:10 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "2186_2978",
+      "timeZone" : "EST",
+      "distance" : "5.37",
+      "latitude" : "33.819000",
+      "longitude" : "-84.352000",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "WEST PONCE DELEON AVENUE DECATUR Covid - 19 Testing Site",
+      "zipCode" : "30030",
+      "clinicId" : "4467",
+      "isPoctDriveThru" : "Y",
+      "address" : "225 WEST PONCE DELEON AVENUE",
+      "city" : "DECATUR",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "2367_4467",
+      "timeZone" : "EST",
+      "distance" : "5.63",
+      "latitude" : "33.775900",
+      "longitude" : "-84.299200",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "MAIN STREET EAST POINT - Covid - 19 Testing Site",
+      "zipCode" : "30344",
+      "clinicId" : "3828",
+      "isPoctDriveThru" : "Y",
+      "address" : "2907 MAIN STREET",
+      "city" : "EAST POINT",
+      "mondayHours" : "9:30 AM - 4:10 PM",
+      "tuesdayHours" : "9:30 AM - 4:10 PM",
+      "wednesdayHours" : "9:30 AM - 4:10 PM",
+      "thursdayHours" : "9:30 AM - 4:10 PM",
+      "fridayHours" : "9:30 AM - 4:10 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "4424_3828",
+      "timeZone" : "EST",
+      "distance" : "5.8",
+      "latitude" : "33.675900",
+      "longitude" : "-84.441900",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "ATLANTA BOLTON RD POCT Covid - 19 Testing Site",
+      "zipCode" : "30318",
+      "clinicId" : "17465",
+      "isPoctDriveThru" : "N",
+      "address" : "2555 BOLTON RD",
+      "city" : "ATLANTA",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "Y",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "Y",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "4661_17465",
+      "timeZone" : "EST",
+      "distance" : "6.06",
+      "latitude" : "33.820400",
+      "longitude" : "-84.451900",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "alert" : {
+        "message" : "This clinic is temporarily closed. Please select a different location.",
+        "startDate" : "11212021",
+        "endDate" : "11212021",
+        "startTime" : "09:00",
+        "endTime" : "16:30"
+      },
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID -19 POCT Testing",
+        "duration" : "10",
+        "id" : "47"
+      } ]
+    }, {
+      "clinicName" : "BOLTON ROAD ATLANTA - Covid - 19 Testing Site",
+      "zipCode" : "30318",
+      "clinicId" : "3827",
+      "isPoctDriveThru" : "N",
+      "address" : "2555 BOLTON ROAD",
+      "city" : "ATLANTA",
+      "mondayHours" : "9:30 AM - 4:10 PM",
+      "tuesdayHours" : "9:30 AM - 4:10 PM",
+      "wednesdayHours" : "9:30 AM - 4:10 PM",
+      "thursdayHours" : "9:30 AM - 4:10 PM",
+      "fridayHours" : "9:30 AM - 4:10 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "Y",
+      "isDarkClinic" : "N",
+      "storeNumber" : "4661_3827",
+      "timeZone" : "EST",
+      "distance" : "6.06",
+      "latitude" : "33.820400",
+      "longitude" : "-84.451900",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "Peachtree Road NE - Atlanta Covid - 19 Testing Site",
+      "zipCode" : "30305",
+      "clinicId" : "3042",
+      "isPoctDriveThru" : "Y",
+      "address" : "3221 PEACHTREE ROAD NE",
+      "city" : "ATLANTA",
+      "mondayHours" : "9:30 AM - 4:10 PM",
+      "tuesdayHours" : "9:30 AM - 4:10 PM",
+      "wednesdayHours" : "9:30 AM - 4:10 PM",
+      "thursdayHours" : "9:30 AM - 4:10 PM",
+      "fridayHours" : "9:30 AM - 4:10 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "5731_3042",
+      "timeZone" : "EST",
+      "distance" : "6.54",
+      "latitude" : "33.842000",
+      "longitude" : "-84.372900",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "alert" : {
+        "message" : "The clinic is temporarily closed from 09:00 am to 08:00 pm .Please try again when the clinic opens.",
+        "startDate" : "05172021",
+        "endDate" : "05172021",
+        "startTime" : "09:00",
+        "endTime" : "20:00"
+      },
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "HEADLAND DRIVE ATLANTA Covid - 19 Testing Site",
+      "zipCode" : "30311",
+      "clinicId" : "7436",
+      "isPoctDriveThru" : "Y",
+      "address" : "3030 HEADLAND DRIVE",
+      "city" : "ATLANTA",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "10:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "5621_7436",
+      "timeZone" : "EST",
+      "distance" : "6.92",
+      "latitude" : "33.688300",
+      "longitude" : "-84.487700",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "CANDLER ROAD DECATUR Covid - 19 Testing Site",
+      "zipCode" : "30032",
+      "clinicId" : "4443",
+      "isPoctDriveThru" : "Y",
+      "address" : "2458 CANDLER ROAD",
+      "city" : "DECATUR",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "4530_4443",
+      "timeZone" : "EST",
+      "distance" : "7.03",
+      "latitude" : "33.718200",
+      "longitude" : "-84.274700",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "DECATUR - 2738 N DECATUR RD POCT Covid - 19 Testing Site Lane 3",
+      "zipCode" : "30033",
+      "clinicId" : "14931",
+      "isPoctDriveThru" : "N",
+      "address" : "2738 N DECATUR RD",
+      "city" : "DECATUR",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "Closed",
+      "isPoctTent" : "Y",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "Y",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "202175_14931",
+      "timeZone" : "EST",
+      "distance" : "7.04",
+      "latitude" : "33.793100",
+      "longitude" : "-84.281300",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "alert" : {
+        "message" : "This clinic is temporarily closed. Please select a different location.",
+        "startDate" : "12032021",
+        "endDate" : "12052021",
+        "startTime" : "08:30",
+        "endTime" : "23:45"
+      },
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID -19 POCT Testing",
+        "duration" : "10",
+        "id" : "47"
+      } ]
+    }, {
+      "clinicName" : "DECATUR - 2738 N DECATUR RD POCT Covid - 19 Testing Site",
+      "zipCode" : "30033",
+      "clinicId" : "12973",
+      "isPoctDriveThru" : "N",
+      "address" : "2738 N DECATUR RD",
+      "city" : "DECATUR",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "Closed",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "Y",
+      "isDualClinic" : "Y",
+      "isDarkClinic" : "N",
+      "storeNumber" : "2175_12973",
+      "timeZone" : "EST",
+      "distance" : "7.04",
+      "latitude" : "33.793100",
+      "longitude" : "-84.281300",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "alert" : {
+        "message" : "This clinic is temporarily closed. Please select a different location.",
+        "startDate" : "12032021",
+        "endDate" : "12052021",
+        "startTime" : "08:30",
+        "endTime" : "23:20"
+      },
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID -19 POCT Testing",
+        "duration" : "10",
+        "id" : "47"
+      } ]
+    }, {
+      "clinicName" : "Decatur Covid - 19 Testing Site",
+      "zipCode" : "30033",
+      "clinicId" : "2670",
+      "isPoctDriveThru" : "N",
+      "address" : "2738 N DECATUR RD",
+      "city" : "DECATUR",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "Y",
+      "isDarkClinic" : "N",
+      "storeNumber" : "2175_2670",
+      "timeZone" : "EST",
+      "distance" : "7.04",
+      "latitude" : "33.793100",
+      "longitude" : "-84.281300",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "alert" : {
+        "message" : "This clinic is temporarily closed. Please select a different location.",
+        "startDate" : "11042021",
+        "endDate" : "11042021",
+        "startTime" : "08:30",
+        "endTime" : "19:30"
+      },
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "NORTHSIDE PARKWAY ATLANTA Covid - 19 Testing Site",
+      "zipCode" : "30327",
+      "clinicId" : "10400",
+      "isPoctDriveThru" : "Y",
+      "address" : "3401 NORTHSIDE PARKWAY",
+      "city" : "ATLANTA",
+      "mondayHours" : "8:00 AM - 7:00 PM",
+      "tuesdayHours" : "8:00 AM - 7:00 PM",
+      "wednesdayHours" : "8:00 AM - 7:00 PM",
+      "thursdayHours" : "8:00 AM - 7:00 PM",
+      "fridayHours" : "8:00 AM - 7:00 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "10:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "4665_10400",
+      "timeZone" : "EST",
+      "distance" : "7.12",
+      "latitude" : "33.847100",
+      "longitude" : "-84.428000",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "GLENWOOD  ROAD DECATUR Covid - 19 Testing Site",
+      "zipCode" : "30032",
+      "clinicId" : "10394",
+      "isPoctDriveThru" : "Y",
+      "address" : "4037 GLENWOOD  ROAD",
+      "city" : "DECATUR",
+      "mondayHours" : "8:30 AM - 7:30 PM",
+      "tuesdayHours" : "8:30 AM - 7:30 PM",
+      "wednesdayHours" : "8:30 AM - 7:30 PM",
+      "thursdayHours" : "8:30 AM - 7:30 PM",
+      "fridayHours" : "8:30 AM - 7:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "10:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "4684_10394",
+      "timeZone" : "EST",
+      "distance" : "7.99",
+      "latitude" : "33.737500",
+      "longitude" : "-84.253100",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "LAWRENCEVILLE HIGHWAY DECATUR - Covid - 19 Testing Site",
+      "zipCode" : "30033",
+      "clinicId" : "3769",
+      "isPoctDriveThru" : "Y",
+      "address" : "2586 LAWRENCEVILLE HIGHWAY",
+      "city" : "DECATUR",
+      "mondayHours" : "9:30 AM - 4:10 PM",
+      "tuesdayHours" : "9:30 AM - 4:10 PM",
+      "wednesdayHours" : "9:30 AM - 4:10 PM",
+      "thursdayHours" : "9:30 AM - 4:10 PM",
+      "fridayHours" : "9:30 AM - 4:10 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "9:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "2504_3769",
+      "timeZone" : "EST",
+      "distance" : "8.95",
+      "latitude" : "33.822600",
+      "longitude" : "-84.263700",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "alert" : {
+        "message" : "This clinic is temporarily closed. Please select a different location.",
+        "startDate" : "10262020",
+        "endDate" : "10272020",
+        "startTime" : "09:30",
+        "endTime" : "16:10"
+      },
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    }, {
+      "clinicName" : "ROSWELL ROAD, SUITE F100 ATLANTA Covid - 19 Testing Site",
+      "zipCode" : "30342",
+      "clinicId" : "9571",
+      "isPoctDriveThru" : "Y",
+      "address" : "4600 ROSWELL ROAD, SUITE F100",
+      "city" : "ATLANTA",
+      "mondayHours" : "9:00 AM - 5:30 PM",
+      "tuesdayHours" : "9:00 AM - 5:30 PM",
+      "wednesdayHours" : "9:00 AM - 5:30 PM",
+      "thursdayHours" : "9:00 AM - 5:30 PM",
+      "fridayHours" : "9:00 AM - 5:30 PM",
+      "saturdayHours" : "Closed",
+      "sundayHours" : "10:00 AM - 4:30 PM",
+      "isPoctTent" : "N",
+      "faxNumber" : "",
+      "phoneNumber" : "866-389-ASAP (2727)",
+      "state" : "GA",
+      "isPoctOffsite" : "N",
+      "isRapidTest" : "N",
+      "isDualClinic" : "N",
+      "isDarkClinic" : "N",
+      "storeNumber" : "5411_9571",
+      "timeZone" : "EST",
+      "distance" : "9.08",
+      "latitude" : "33.879700",
+      "longitude" : "-84.380600",
+      "gracePeriod" : "90",
+      "isclinicClosed" : "N",
+      "activeForScheduling" : "Y",
+      "scheduleReasonforvisits" : [ {
+        "name" : "COVID19 Testing for the S&S",
+        "duration" : "9",
+        "id" : "48"
+      }, {
+        "name" : "COVID+Flu",
+        "duration" : "10",
+        "id" : "60"
+      } ]
+    } ],
+    "details" : {
+      "dates" : [ {
+        "clinicId" : "3040",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "4456",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "4090",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "14449",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "13080",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "3039",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "4097",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "33073",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "2978",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "4467",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "3828",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "17465",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        } ]
+      }, {
+        "clinicId" : "3827",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "3042",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "7436",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "4443",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "14931",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "12973",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "2670",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "10400",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "10394",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "3769",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      }, {
+        "clinicId" : "9571",
+        "dates" : [ {
+          "date" : "12/31/2021",
+          "text" : "Today, December 31, 2021",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/01/2022",
+          "text" : "Tomorrow, January 01, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/02/2022",
+          "text" : "January 02, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/03/2022",
+          "text" : "January 03, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/04/2022",
+          "text" : "January 04, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/05/2022",
+          "text" : "January 05, 2022",
+          "isSlotAvailable" : false
+        }, {
+          "date" : "01/06/2022",
+          "text" : "January 06, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/07/2022",
+          "text" : "January 07, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/08/2022",
+          "text" : "January 08, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/09/2022",
+          "text" : "January 09, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/10/2022",
+          "text" : "January 10, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/11/2022",
+          "text" : "January 11, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/12/2022",
+          "text" : "January 12, 2022",
+          "isSlotAvailable" : true
+        }, {
+          "date" : "01/13/2022",
+          "text" : "January 13, 2022",
+          "isSlotAvailable" : true
+        } ]
+      } ]
+    }
+  }
+}

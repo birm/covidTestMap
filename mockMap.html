@@ -1,0 +1,145 @@
+<html>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+  <style>
+    #map { height: 100%; }
+    img.huechange1 { filter: hue-rotate(120deg); }
+    img.huechange2 { filter: hue-rotate(240deg); }
+  </style>
+<body>
+  <div id="map"></div>
+</body>
+<script>
+  let data = [
+    {
+        "address": "2738 N DECATUR RD 30033",
+        "date": "01/02/2022"
+    },
+    {
+        "address": "2350 CHESHIRE BRIDGE ROAD, NE 30324",
+        "date": "01/03/2022"
+    },
+    {
+        "address": "1455 MORELAND AVENUE 30316",
+        "date": "12/31/2021"
+    },
+    {
+        "address": "439 HIGHLAND AVENUE 30312",
+        "date": "01/06/2022"
+    },
+    {
+        "address": "3221 PEACHTREE ROAD NE 30305",
+        "date": "01/07/2022"
+    },
+    {
+        "address": "2586 LAWRENCEVILLE HIGHWAY 30033",
+        "date": "01/04/2022"
+    },
+    {
+        "address": "2555 BOLTON ROAD 30318",
+        "date": "01/02/2022"
+    },
+    {
+        "address": "2907 MAIN STREET 30344",
+        "date": "01/03/2022"
+    },
+    {
+        "address": "680 PONCE DE LEON AVENUE NE 30308",
+        "date": "01/02/2022"
+    },
+    {
+        "address": "2429 MARTIN LUTHER KING JR DR SW 30311",
+        "date": "01/03/2022"
+    },
+    {
+        "address": "2458 CANDLER ROAD 30032",
+        "date": "12/31/2021"
+    },
+    {
+        "address": "895 RALPH DAVID ABERNATHY BOULEVARD 30310",
+        "date": "01/04/2022"
+    },
+    {
+        "address": "225 WEST PONCE DELEON AVENUE 30030",
+        "date": "01/05/2022"
+    },
+    {
+        "address": "3030 HEADLAND DRIVE 30311",
+        "date": "01/04/2022"
+    },
+    {
+        "address": "4600 ROSWELL ROAD, SUITE F100 30342",
+        "date": "01/02/2022"
+    },
+    {
+        "address": "4037 GLENWOOD  ROAD 30032",
+        "date": "01/03/2022"
+    },
+    {
+        "address": "3401 NORTHSIDE PARKWAY 30327",
+        "date": "01/01/2022"
+    },
+    {
+        "address": "2738 N DECATUR RD 30033",
+        "date": "01/10/2022"
+    },
+    {
+        "address": "865 N HIGHLAND AVE NE 30306",
+        "date": "12/31/2021"
+    },
+    {
+        "address": "865 N HIGHLAND AVE NE 30306",
+        "date": "12/31/2021"
+    },
+    {
+        "address": "2738 N DECATUR RD 30033",
+        "date": "01/12/2022"
+    },
+    {
+        "address": "2555 BOLTON RD 30318",
+        "date": "nothing soon"
+    },
+    {
+        "address": "2237 CASCADE ROAD, SW 30311",
+        "date": "01/10/2022"
+    }
+];
+  var map = L.map('map').setView([33.8366054,-84.3584737], 10);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+  }).addTo(map);
+
+  function addToMap(item){
+    let text = item.date
+    let color = "blue"
+    if (text == "nothing soon"){
+      color = "red"
+    } else {
+      if (Math.ceil((Date.parse(text) - Date.now()) / (1000 * 60 * 60 * 24)) < 2){
+        color = "green"
+      }
+    }
+    let diffDays = Math.ceil(Date.parse(text) - Date.now() / (1000 * 60 * 60 * 24));
+    let address = item.address
+    let url = "https://api.mapbox.com/geocoding/v5/mapbox.places/" + address + ".json?access_token=pk.eyJ1IjoicmJpcm1pbiIsImEiOiJja3h2NzBiNGYzZXF0MnFwZXlkbXBvODhpIn0.qvyFf4eTZEsT_D3e9UgFQQ"
+    fetch(url).then(x=>x.json()).then(x=>{
+      console.log(x.features[0].center)
+      lat = x.features[0].center[0]
+      lon = x.features[0].center[1]
+      let marker = L.marker([lon, lat]).addTo(map);
+      if (color == "green"){
+        marker._icon.classList.add("huechange2");
+      } else if (color == "red") {
+        marker._icon.classList.add("huechange1");
+      }
+      marker.bindPopup(text + "<br/>" + address).show;
+    })
+  }
+  data.map(addToMap);
+</script>
+</html>
