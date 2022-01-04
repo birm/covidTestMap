@@ -1,0 +1,129 @@
+<html>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+  <style>
+    #map { height: 100%; }
+    img.huechange1 { filter: hue-rotate(120deg); }
+    img.huechange2 { filter: hue-rotate(240deg); }
+  </style>
+<body>
+  <div id="query">
+    <input type="text" placeholder="City" id="city"/>
+    <select name="state" id="state">
+      <option value='AK'>AK</option>
+      <option value='AL'>AL</option>
+      <option value='AZ'>AZ</option>
+      <option value='AR'>AR</option>
+      <option value='CA'>CA</option>
+      <option value='CO'>CO</option>
+      <option value='CT'>CT</option>
+      <option value='DE'>DE</option>
+      <option value='FL'>FL</option>
+      <option value='GA'>GA</option>
+      <option value='HI'>HI</option>
+      <option value='ID'>ID</option>
+      <option value='IL'>IL</option>
+      <option value='IN'>IN</option>
+      <option value='IA'>IA</option>
+      <option value='KS'>KS</option>
+      <option value='KY'>KY</option>
+      <option value='LA'>LA</option>
+      <option value='ME'>ME</option>
+      <option value='MD'>MD</option>
+      <option value='MA'>MA</option>
+      <option value='MI'>MI</option>
+      <option value='MN'>MN</option>
+      <option value='MS'>MS</option>
+      <option value='MO'>MO</option>
+      <option value='MT'>MT</option>
+      <option value='NE'>NE</option>
+      <option value='NV'>NV</option>
+      <option value='NH'>NH</option>
+      <option value='NJ'>NJ</option>
+      <option value='NM'>NM</option>
+      <option value='NY'>NY</option>
+      <option value='NC'>NC</option>
+      <option value='ND'>ND</option>
+      <option value='OH'>OH</option>
+      <option value='OK'>OK</option>
+      <option value='OR'>OR</option>
+      <option value='PA'>PA</option>
+      <option value='RI'>RI</option>
+      <option value='SC'>SC</option>
+      <option value='SD'>SD</option>
+      <option value='TN'>TN</option>
+      <option value='TX'>TX</option>
+      <option value='UT'>UT</option>
+      <option value='VT'>VT</option>
+      <option value='VA'>VA</option>
+      <option value='WA'>WA</option>
+      <option value='WV'>WV</option>
+      <option value='WI'>WI</option>
+      <option value='WY'>WY</option>
+    </select>
+    <input type="button" value="search" id="searchbtn"/></div>
+  <div id="map"></div>
+</body>
+<script>
+
+  function geoCode(address){
+    let url = "https://api.mapbox.com/geocoding/v5/mapbox.places/" + address + ".json?access_token=pk.eyJ1IjoicmJpcm1pbiIsImEiOiJja3h2NzBiNGYzZXF0MnFwZXlkbXBvODhpIn0.qvyFf4eTZEsT_D3e9UgFQQ"
+    return fetch(url).then(x=>x.json()).then(x=>{
+      console.log(x)
+      console.log(x.features[0].center)
+      lat = x.features[0].center[0]
+      lon = x.features[0].center[1]
+      return [lat, lon];
+    })
+  }
+
+  async function addLocationToMap(map, item){
+    let text = item.date
+    let color = "blue"
+    if (text == "nothing soon"){
+      color = "red"
+    } else {
+      if (Math.ceil((Date.parse(text) - Date.now()) / (1000 * 60 * 60 * 24)) < 2){
+        color = "green"
+      }
+    }
+    let diffDays = Math.ceil(Date.parse(text) - Date.now() / (1000 * 60 * 60 * 24));
+    let address = item.address
+    let coords = await geoCode(address);
+    console.log(coords)
+    lat = coords[0]
+    lon = coords[1]
+    let marker = L.marker([lon, lat]).addTo(map);
+    if (color == "green"){
+      marker._icon.classList.add("huechange2");
+    } else if (color == "red") {
+      marker._icon.classList.add("huechange1");
+    }
+    marker.bindPopup(text + "<br/>" + address).show;
+  }
+
+  async function searchCall(){
+    var map = L.map('map')
+    let city = document.getElementById('city').value || "Boston"
+    let state = document.getElementById('state').value || "MA"
+    let location = `${city}, ${state}`
+    data = await fetch("./api/sites/" + encodeURIComponent(location)).then(x=>x.json())
+    console.log(data)
+    firstResult = await geoCode(data[0].address);
+    console.log(firstResult)
+    map.setView([firstResult[1], firstResult[0]], 10);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+    }).addTo(map);
+    data.map(x=>addLocationToMap(map, x));
+  }
+
+  document.getElementById('searchbtn').addEventListener("click", searchCall)
+
+</script>
+</html>
